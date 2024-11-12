@@ -1,4 +1,4 @@
-# Text Classification Project
+# LLM-based Text Classification
 
 This project is a FastAPI-based application for performing text classification tasks using large languge models. It currently supports binary classification and multi-class classification, with an option for using few-shot learning.
 
