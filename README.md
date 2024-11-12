@@ -36,10 +36,6 @@ Text Classification/
 │   ├── task_metric_mapping.json        # Maps each task type (binary, multi-class) to its evaluation metrics.
 │   ├── dataset_config.json             # Configuration for dataset paths and formats.
 │   └── results/                        # Folder for storing evaluation reports
-├── tests/
-│   ├── __init__.py 
-│   └── test_classification.py          # Unit and integration tests to verify model and API functionality.
-├── assets/
 ├── requirements.txt                    # Specifies project dependencies
 ├── README.md
 └── run.sh                              # A shell script for launching the FastAPI app and running any additional setup.
