@@ -24,8 +24,8 @@ class LLMClassifier:
         
         # Load the tokenizer and model
         self.tokenizer = AutoTokenizer.from_pretrained(model_name)
-        # self.model = AutoModelForSeq2SeqLM.from_pretrained(model_name)
-        self.model = AutoModelForCausalLM.from_pretrained(model_name)
+        self.model = AutoModelForSeq2SeqLM.from_pretrained(model_name)   # Use this for "google/flan-t5-large" model
+        # self.model = AutoModelForCausalLM.from_pretrained(model_name)  # Use this for "bigscience/bloom-560m" model
         
 
     def classify(self, text: str, labels: list[str], descriptions: list[str] = None, few_shot_examples: list[dict] = None, is_multi_label: bool = False) -> str:
