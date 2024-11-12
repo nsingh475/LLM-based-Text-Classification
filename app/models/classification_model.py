@@ -73,7 +73,5 @@ class LLMClassifier:
     
     
 #### prompt experiments:
-
 # 1. prompt = f"Classify the following text into one {multiple_labels} of the labels:\n\nLabels:\n{label_description_prompt}\n\n. Only use the provided labels for classification, and do not suggest labels outside of this list.\n\n"
-
 # 2. prompt = f"Classify the following text into one {multiple_labels} of the labels:\n\nLabels:\n{label_description_prompt}\n\n. IMPORTANT: ONLY choose one label from this list: [{labels}]. Do not suggest or create any labels that are NOT part of the provided list. If the text doesn't fit any label, please return 'None' or a label that best matches from the list. Be STRICT in following the given labels."
