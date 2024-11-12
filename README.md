@@ -48,8 +48,8 @@ Text Classification/
 ```
 bash ./run.sh
 ```
-3. This will install the required dependencies from requirements.txt (if not already installed) and start the FastAPI application using Uvicorn.
-4. Verify That the FastAPI Application is Running:
+This will install the required dependencies from requirements.txt (if not already installed) and start the FastAPI application using Uvicorn.
+3. Verify That the FastAPI Application is Running:
 After running the script, you should see output indicating that the FastAPI application is starting. Look for a message like this:
 ```
 INFO:     Will watch for changes in these directories: ['app']
