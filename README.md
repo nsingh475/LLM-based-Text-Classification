@@ -89,7 +89,7 @@ INFO:     Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)
                {"text": "This is terrible.", "label": "Negative"}
                   ]
          }
-         ```
+    ```
 5. **Send the Request**: Click Send to submit the request. 
 6. You should see the model's classification response in the output.
 
