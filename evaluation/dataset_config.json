@@ -1,0 +1,20 @@
+{
+    "tweet_sentiment": {
+        "dataset_name": "tweet_sentiment_classification",
+        "csv_path": "../datasets/tweet_sentiment.csv",
+        "json_path": "../datasets/sentiment.json",
+        "task_type": "binary"
+    },
+    "bbc_article": {
+        "dataset_name": "bbc_article_categorization",
+        "csv_path": "../datasets/bbc_articles.csv",
+        "json_path": "../datasets/article_category.json",
+        "task_type": "multi-class"
+    },
+    "skin_symptoms": {
+        "dataset_name": "skin_disease_classification",
+        "csv_path": "../datasets/skin_symptoms.csv",
+        "json_path": "../datasets/diseases.json",
+        "task_type": "multi-class",
+    }
+}

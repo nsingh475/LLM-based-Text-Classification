@@ -1,0 +1,26 @@
+# ----------------------- Binary Classification -----------------------
+# Task: Classify tweet sentiment - positive, negative
+# Data Source: https://www.kaggle.com/datasets/dineshpiyasamara/sentiment-analysis-dataset
+# Label-description mapping: sentiment.json
+# File name: tweet_sentiment.csv
+
+
+# ----------------------- Multi-class Classification 1-----------------------
+# Task: Classify BBC article into one or more categories - sport, business, tech, entertainment, politics
+# Data Source: https://www.kaggle.com/datasets/yufengdev/bbc-fulltext-and-category
+# Label-description mapping: article_category.json
+# File name: bbc_articles.csv
+
+
+# ----------------------- Multi-class Classification 2-----------------------
+# Task: Assign an appropriate disease label based on the symptoms described. There are 13 labels for this task
+# Data Source: https://www.kaggle.com/datasets/rafsunahmad/skin-disease-text-classification
+# Label-description mapping: diseases.json
+# File name: skin_symptoms.csv
+
+
+# ----------------------- Multi-label Classification -----------------------
+# Task: Classify wikipedia comment into one or more categories - toxic, severe_toxic, obscene, threat, insult, identity_hate
+# Data Source: https://www.kaggle.com/competitions/jigsaw-toxic-comment-classification-challenge/data
+# Label-description mapping: toxic_categories.json
+# File name: wiki_comments.csv

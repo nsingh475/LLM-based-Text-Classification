@@ -1,0 +1,24 @@
+{
+  "labels": {
+    "sport": {
+      "description": "This label should be applied to content related to physical activities, competitions, athletes, teams, sporting events, or anything that involves the discussion of sports. It may include news, scores, analysis, or commentary about sports.",
+      "example": ["The NBA finals are scheduled for next week.", "The Olympic Games are held every four years."]
+    },
+    "business": {
+      "description": "This label should be used for content focused on the economy, companies, finance, markets, investments, entrepreneurship, or corporate matters. It may include discussions about mergers, acquisitions, stock market trends, or business strategies.",
+      "example": ["Apple reported record profits last quarter.", "Tesla's stock surged after the announcement of new electric vehicles."]
+    },
+    "tech": {
+      "description": "This label applies to content that revolves around technology, gadgets, software, hardware, digital innovations, and advancements in the tech industry. It could involve new tech products, updates, or discussions about tech trends.",
+      "example": ["The new iPhone 15 has been released with improved camera features.", "Artificial intelligence is changing the way we work."]
+    },
+    "entertainment": {
+      "description": "This category is for content related to movies, TV shows, music, video games, celebrities, and general pop culture. It can include reviews, news, or discussions about upcoming releases or trends in the entertainment industry.",
+      "example": ["The new Marvel movie is breaking box office records.", "Adele is releasing a new album this fall."]
+    },
+    "politics": {
+      "description": "This label should be assigned to content that discusses political issues, government, elections, policies, political figures, or international relations. It may include debates, laws, political opinions, or governmental actions.",
+      "example": ["The President announced a new healthcare policy.", "The election results have sparked debates across the country."]
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "labels": {
+    "positive": {
+      "description": "This label should be applied to content that expresses favorable, supportive, or optimistic sentiments. It includes praise, encouragement, appreciation, or anything that conveys a positive outlook or good news.",
+      "example": ["I love this idea, it's amazing!", "Great job on the presentation, you did fantastic!"]
+    },
+    "negative": {
+      "description": "This label should be assigned to content that expresses unfavorable, critical, or pessimistic sentiments. It includes complaints, criticism, frustration, or anything that conveys a negative outlook or bad news.",
+      "example": ["This is terrible, I can’t believe this happened.", "I’m so disappointed with how things turned out."]
+    }
+  }
+}

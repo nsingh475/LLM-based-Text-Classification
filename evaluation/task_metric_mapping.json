@@ -1,0 +1,5 @@
+{
+    "binary": ["accuracy", "precision", "recall", "f1"],
+    "multi-class": ["accuracy", "precision", "recall", "f1"],
+    "multi-label": ["hamming_loss", "average_precision", "label_ranking_average_precision"]
+}

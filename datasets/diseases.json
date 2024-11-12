@@ -1,0 +1,56 @@
+{
+  "labels": {
+    "Vitiligo": {
+      "description": "A condition where white patches of skin appear due to the loss of pigment. It can occur anywhere on the body and may spread over time.",
+      "example": ["I have white patches on my hands and face.", "The skin around my elbows has turned pale."]
+    },
+    "Scabies": {
+      "description": "An itchy, contagious skin condition caused by tiny mites burrowing into the skin. It causes rashes, blisters, and intense itching.",
+      "example": ["I've been itching a lot, especially at night.", "There are red spots between my fingers."]
+    },
+    "Hives (Urticaria)": {
+      "description": "Raised, red, itchy welts on the skin, often caused by an allergic reaction. The welts can vary in size and shape.",
+      "example": ["I have swollen, itchy hives on my arms.", "My skin is breaking out in red welts after eating something spicy."]
+    },
+    "Folliculitis": {
+      "description": "An infection of hair follicles, often appearing as red, inflamed bumps or pimples. It can cause itching and tenderness.",
+      "example": ["I have small red pimples around my hair follicles.", "My scalp is inflamed and itchy."]
+    },
+    "Eczema": {
+      "description": "A chronic condition that causes the skin to become inflamed, itchy, and dry. It can lead to redness and scaling, especially on the hands, elbows, and knees.",
+      "example": ["My skin is always dry and itchy, especially in winter.", "I have eczema on my hands and elbows."]
+    },
+    "Ringworm (Tinea Corporis)": {
+      "description": "A fungal infection that creates ring-shaped, red, itchy patches on the skin. It is contagious and can spread to other areas of the body.",
+      "example": ["I have a circular rash with a red border.", "There's a scaly, itchy patch on my arm that looks like a ring."]
+    },
+    "Athlete's Foot (Tinea Pedis)": {
+      "description": "A fungal infection affecting the feet, often causing itching, burning, and cracked skin, particularly between the toes.",
+      "example": ["My feet are itchy, and the skin is peeling between my toes.", "I have red, flaky skin on the soles of my feet."]
+    },
+    "Rosacea": {
+      "description": "A chronic skin condition that causes redness and visible blood vessels, primarily on the face. It may include pimples and bumps.",
+      "example": ["My face often looks flushed, especially around the cheeks.", "I have red bumps and pimples on my nose."]
+    },
+    "Psoriasis": {
+      "description": "A chronic autoimmune condition that speeds up the production of skin cells, leading to red, scaly patches, often on the elbows, knees, and scalp.",
+      "example": ["I have thick, silvery scales on my elbows.", "My scalp is covered in dry, flaky patches."]
+    },
+    "Shingles (Herpes Zoster)": {
+      "description": "A painful rash caused by the reactivation of the chickenpox virus. It often appears as a band of blisters, typically on one side of the body.",
+      "example": ["I have a painful rash along one side of my torso.", "There are blisters forming on my back and chest."]
+    },
+    "Impetigo": {
+      "description": "A contagious bacterial skin infection, usually appearing as red sores that rupture and form a yellow-brown crust.",
+      "example": ["I have yellow crusty sores around my nose and mouth.", "There are red sores on my arms that have a yellow crust."]
+    },
+    "Contact Dermatitis": {
+      "description": "A skin reaction caused by contact with an irritant or allergen, leading to redness, itching, and inflammation.",
+      "example": ["My skin is red and irritated after using a new soap.", "I developed a rash after touching poison ivy."]
+    },
+    "Acne": {
+      "description": "A skin condition characterized by pimples, blackheads, and cysts, typically on the face, chest, and back. It occurs when hair follicles are clogged.",
+      "example": ["I have lots of pimples on my forehead and cheeks.", "My back is covered with blackheads and cysts."]
+    }
+  }
+}
