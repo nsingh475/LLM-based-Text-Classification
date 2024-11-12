@@ -101,3 +101,29 @@ To evaluate the model on these datasets, follow these steps:
 python evaluation/evaluate_classification.py
 ```
 4. **Check the results**: After running the script, the evaluation results for each task will be saved as **JSON** files in the `evaluation/results` directory, named according to the classification type (e.g., binary_report.json, multi-class_report.json, multi-label_report.json).
+
+
+## Prompt Experiments
+To optimize the classification performance, I experimented with two prompt structures. These prompts were designed to guide the model strictly to select one of the provided labels without creating or suggesting new labels. Here are the details:
+
+**`Prompt 1`**:
+
+```
+prompt = f"Classify the following text into one {multiple_labels} of the labels:\n\nLabels:\n{label_description_prompt}\n\n. Only use the provided labels for classification, and do not suggest labels outside of this list.\n\n"
+```
+  - `Description`: This prompt instructs the model to classify the text into one of the provided labels and avoid suggesting any labels not listed.
+  - `Purpose`: To ensure classification accuracy by confining the model to a pre-defined label set.
+
+**`Prompt 2`**:
+
+```
+prompt = f"Classify the following text into one {multiple_labels} of the labels:\n\nLabels:\n{label_description_prompt}\n\n. IMPORTANT: ONLY choose one label from this list: [{labels}]. Do not suggest or create any labels that are NOT part of the provided list. If the text doesn't fit any label, please return 'None' or a label that best matches from the list. Be STRICT in following the given labels."
+```
+  - `Description`: This prompt adds more explicit instructions, emphasizing that the model must only choose from the provided labels, return "None" if no label matches, and strictly follow the list of labels.
+  - `Purpose`: To reinforce strict adherence to the provided labels, especially for cases where the text may not clearly fit any label.
+
+
+## Results Comparison
+The table below summarizes the classification performance for different tasks using each prompt. Prompt 2 generally produced higher accuracy, precision, and F1 scores, indicating improved performance across tasks.
+
+![image](https://github.com/user-attachments/assets/e3c0b498-7704-49d1-a9f3-1557e6c846ba)
