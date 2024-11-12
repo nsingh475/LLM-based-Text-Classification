@@ -1,6 +1,6 @@
 # LLM-based Text Classification
 
-This project is a FastAPI-based application for performing text classification tasks using large languge models. It currently supports binary classification and multi-class classification, with an option for using few-shot learning.
+This project is a FastAPI-based application for performing text classification tasks using large language models. It currently supports binary classification and multi-class classification, with an option for using few-shot learning.
 
 This project evaluates a classification model on three classification tasks:
 1. Classifies the sentiment of tweets as either "Positive" or "Negative"
